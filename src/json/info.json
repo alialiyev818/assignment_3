@@ -1,0 +1,253 @@
+{
+    "cards": [
+      {
+        "id": 0,
+        "frontText": "What is the capital of Australia?",
+        "backAnswer": "Canberra is the capital of Australia",
+        "image": "",
+        "lastModificationDateTime": "12/21/2023, 1:38:59 PM",
+        "status": "Want to Learn",
+        "isFlipped": false
+      },
+      {
+        "id": 1,
+        "frontText": "Who wrote 'The Great Gatsby'?",
+        "backAnswer": "F. Scott Fitzgerald wrote 'The Great Gatsby'.",
+        "image": "",
+        "lastModificationDateTime": "12/21/2023, 4:17:42 AM",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 2,
+        "frontText": "What is the currency of China?",
+        "backAnswer": "The currency of China is the Renminbi (Yuan).",
+        "image": "",
+        "lastModificationDateTime": "12/15/2023",
+        "status": "Mark as Noted"
+      },
+      {
+        "id": 3,
+        "frontText": "Name two famous scientists in history..",
+        "backAnswer": "Isaac Newton and Albert Einstein are two famous scientists in history.",
+        "image": "",
+        "lastModificationDateTime": "12/21/2023, 4:00:32 AM",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 4,
+        "frontText": "What is the capital of France?",
+        "backAnswer": "Paris is the capital of France.",
+        "image": "",
+        "lastModificationDateTime": "12/13/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 5,
+        "frontText": "Who directed the movie 'Inception'?",
+        "backAnswer": "Christopher Nolan directed the movie 'Inception'.",
+        "image": "",
+        "lastModificationDateTime": "12/12/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 6,
+        "frontText": "What is the boiling point of water?",
+        "backAnswer": "The boiling point of water is 100 degrees Celsius (212 degrees Fahrenheit).",
+        "image": "",
+        "lastModificationDateTime": "12/11/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 7,
+        "frontText": "Who is the author of 'The Catcher in the Rye'?",
+        "backAnswer": "J.D. Salinger is the author of 'The Catcher in the Rye'.",
+        "image": "",
+        "lastModificationDateTime": "12/10/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 8,
+        "frontText": "What is the largest planet in our solar system?",
+        "backAnswer": "Jupiter is the largest planet in our solar.",
+        "image": "",
+        "lastModificationDateTime": "12/23/2023, 1:36:17 AM",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 9,
+        "frontText": "Who composed 'The Four Seasons'?",
+        "backAnswer": "Antonio Vivaldi composed 'The Four Seasons'.",
+        "image": "",
+        "lastModificationDateTime": "12/08/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 10,
+        "frontText": "What is the smallest prime number?",
+        "backAnswer": "The smallest prime number is 2.",
+        "image": "",
+        "lastModificationDateTime": "12/07/2023",
+        "status": "Mark as Noted"
+      },
+      {
+        "id": 11,
+        "frontText": "Who discovered penicillin??",
+        "backAnswer": "Alexander Fleming discovered penicillin.",
+        "image": "",
+        "lastModificationDateTime": "12/18/2023, 11:43:04 PM",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 12,
+        "frontText": "What is the speed of sound in air?",
+        "backAnswer": "The speed of sound in air is approximately 343 meters per second.",
+        "image": "",
+        "lastModificationDateTime": "12/05/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 13,
+        "frontText": "Who painted the 'Mona Lisa'?",
+        "backAnswer": "Leonardo da Vinci painted the 'Mona Lisa'.",
+        "image": "",
+        "lastModificationDateTime": "12/04/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 14,
+        "frontText": "What is the capital of South Africa?",
+        "backAnswer": "Pretoria is one of the three capital cities of South Africa.",
+        "image": "",
+        "lastModificationDateTime": "12/03/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 15,
+        "frontText": "Who discovered electricity?",
+        "backAnswer": "Benjamin Franklin is credited with discovering electricity.",
+        "image": "",
+        "lastModificationDateTime": "12/02/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 16,
+        "frontText": "What is the chemical symbol for gold?",
+        "backAnswer": "The chemical symbol for gold is Au.",
+        "image": "",
+        "lastModificationDateTime": "11/16/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 17,
+        "frontText": "Who is the author of 'Pride and Prejudice'?",
+        "backAnswer": "Jane Austen is the author of 'Pride and Prejudice'.",
+        "image": "",
+        "lastModificationDateTime": "10/16/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 18,
+        "frontText": "What is the largest ocean on Earth?",
+        "backAnswer": "The Pacific Ocean is the largest ocean on Earth.",
+        "image": "",
+        "lastModificationDateTime": "09/16/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 19,
+        "frontText": "Who founded Facebook?",
+        "backAnswer": "Mark Zuckerberg founded Facebook.",
+        "image": "",
+        "lastModificationDateTime": "12/11/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 20,
+        "frontText": "What is the capital of Japan?",
+        "backAnswer": "Tokyo is the capital of Japan.",
+        "image": "",
+        "lastModificationDateTime": "12/01/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 21,
+        "frontText": "Who developed the theory of relativity?",
+        "backAnswer": "Albert Einstein developed the theory of relativity.",
+        "image": "",
+        "lastModificationDateTime": "11/30/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 22,
+        "frontText": "What is the currency of Japan?",
+        "backAnswer": "The currency of Japan is the Japanese Yen.",
+        "image": "",
+        "lastModificationDateTime": "11/29/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 23,
+        "frontText": "Who wrote 'Romeo and Juliet'?",
+        "backAnswer": "William Shakespeare wrote 'Romeo and Juliet'.",
+        "image": "",
+        "lastModificationDateTime": "11/28/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 24,
+        "frontText": "What is the capital of Brazil?",
+        "backAnswer": "Brasília is the capital of Brazil.",
+        "image": "",
+        "lastModificationDateTime": "11/27/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 25,
+        "frontText": "Who painted 'Starry Night'?",
+        "backAnswer": "Vincent van Gogh painted 'Starry Night'.",
+        "image": "",
+        "lastModificationDateTime": "11/26/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 26,
+        "frontText": "What is the currency of India?",
+        "backAnswer": "The currency of India is the Indian Rupee.",
+        "image": "",
+        "lastModificationDateTime": "11/25/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 27,
+        "frontText": "Who is known as the 'Father of Computers'?",
+        "backAnswer": "Charles Babbage is known as the 'Father of Computers'.",
+        "image": "",
+        "lastModificationDateTime": "11/24/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 28,
+        "frontText": "What is the square root of 64?",
+        "backAnswer": "The square root of 64 is 8.",
+        "image": "",
+        "lastModificationDateTime": "11/23/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 29,
+        "frontText": "Who discovered penicillin?",
+        "backAnswer": "Alexander Fleming discovered penicillin.",
+        "image": "",
+        "lastModificationDateTime": "11/22/2023",
+        "status": "Want to Learn"
+      },
+      {
+        "id": 30,
+        "frontText": "What is the capital of Canada?",
+        "backAnswer": "Ottawa is the capital of Canada.",
+        "image": "",
+        "lastModificationDateTime": "11/21/2023",
+        "status": "Want to Learn"
+      }
+    ]
+  }

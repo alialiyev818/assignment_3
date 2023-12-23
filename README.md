@@ -1,3 +1,18 @@
+# Commands
+
+## For dependencies:
+
+npm install --force
+npm install -g json-server
+⁠npm install react-router-dom --force
+npm install axios --force
+npm install react-toastify --force
+
+## For Running:
+
+json-server --watch src/json/info.json --port 3001
+npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
