@@ -1,9 +1,10 @@
 import React from 'react';
-import '../assets/style/pages/ContactPage.css'; 
+import NavBar from "../components/NavBar.jsx";
 
 function ContactPage() {
   return (
     <div className="contact-container">
+      <NavBar/>
       <h1>Contact Me</h1>
       <form className="contact-form">
         <div className="form-group">

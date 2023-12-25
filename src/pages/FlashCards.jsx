@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Flashcard from '../components/Flashcard';
+import NavBar from "../components/NavBar.jsx";
 
 function FlashcardsPage() {
   const [flashcards, setFlashcards] = useState([]);
@@ -12,6 +13,7 @@ function FlashcardsPage() {
 
   return (
     <div>
+      <NavBar/>
       <h1>Flashcards Page</h1>
       {flashcards.map((card, index) => (
         <Flashcard 

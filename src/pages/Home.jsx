@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import MyProjects from "../components/MyProjects.jsx";
+import Navbar from "../components/NavBar.jsx";
 
 const Home = () => {
     const [myProjects, setMyProjects] = useState([]);
@@ -20,7 +21,7 @@ const Home = () => {
 
     return (
         <div className="all">
-            
+            <Navbar />
             <div className="container">
                 <section className="introduction">
                     <h1>Welcome to App</h1>

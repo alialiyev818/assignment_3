@@ -1,31 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import FlashcardsPage from './pages/FlashcardsPage';
-import ContactPage from './pages/ContactPage';
+import Home from './pages/Home.jsx';
+import FlashCards from './pages/FlashCards.jsx';
+import ContactPage from './pages/ContactPage.jsx';
 
 function App() {
   return (
-    <Router>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/flashcards">Flashcards</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/flashcards" element={<FlashcardsPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-      </Routes>
-    </Router>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contactpage" element={<ContactPage />} />
+          <Route path="/flashcards" element={<FlashCards />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
