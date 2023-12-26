@@ -1,291 +1,307 @@
 {
-    "cards": [
-      {
-        "id": 0,
-        "frontText": "What is the capital of Australia?",
-        "backAnswer": "Canberra is the capital of Australia",
-        "image": "",
-        "lastModificationDateTime": "12/21/2023, 1:38:59 PM",
-        "status": "Want to Learn",
-        "isFlipped": false
-      },
-      {
-        "id": 1,
-        "frontText": "Who wrote 'The Great Gatsby'?",
-        "backAnswer": "F. Scott Fitzgerald wrote 'The Great Gatsby'.",
-        "image": "",
-        "lastModificationDateTime": "12/21/2023, 4:17:42 AM",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 2,
-        "frontText": "What is the currency of China?",
-        "backAnswer": "The currency of China is the Renminbi (Yuan).",
-        "image": "",
-        "lastModificationDateTime": "12/15/2023",
-        "status": "Mark as Noted"
-      },
-      {
-        "id": 3,
-        "frontText": "Name two famous scientists in history..",
-        "backAnswer": "Isaac Newton and Albert Einstein are two famous scientists in history.",
-        "image": "",
-        "lastModificationDateTime": "12/21/2023, 4:00:32 AM",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 4,
-        "frontText": "What is the capital of France?",
-        "backAnswer": "Paris is the capital of France.",
-        "image": "",
-        "lastModificationDateTime": "12/13/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 5,
-        "frontText": "Who directed the movie 'Inception'?",
-        "backAnswer": "Christopher Nolan directed the movie 'Inception'.",
-        "image": "",
-        "lastModificationDateTime": "12/12/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 6,
-        "frontText": "What is the boiling point of water?",
-        "backAnswer": "The boiling point of water is 100 degrees Celsius (212 degrees Fahrenheit).",
-        "image": "",
-        "lastModificationDateTime": "12/11/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 7,
-        "frontText": "Who is the author of 'The Catcher in the Rye'?",
-        "backAnswer": "J.D. Salinger is the author of 'The Catcher in the Rye'.",
-        "image": "",
-        "lastModificationDateTime": "12/10/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 8,
-        "frontText": "What is the largest planet in our solar system?",
-        "backAnswer": "Jupiter is the largest planet in our solar.",
-        "image": "",
-        "lastModificationDateTime": "12/23/2023, 1:36:17 AM",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 9,
-        "frontText": "Who composed 'The Four Seasons'?",
-        "backAnswer": "Antonio Vivaldi composed 'The Four Seasons'.",
-        "image": "",
-        "lastModificationDateTime": "12/08/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 10,
-        "frontText": "What is the smallest prime number?",
-        "backAnswer": "The smallest prime number is 2.",
-        "image": "",
-        "lastModificationDateTime": "12/07/2023",
-        "status": "Mark as Noted"
-      },
-      {
-        "id": 11,
-        "frontText": "Who discovered penicillin??",
-        "backAnswer": "Alexander Fleming discovered penicillin.",
-        "image": "",
-        "lastModificationDateTime": "12/18/2023, 11:43:04 PM",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 12,
-        "frontText": "What is the speed of sound in air?",
-        "backAnswer": "The speed of sound in air is approximately 343 meters per second.",
-        "image": "",
-        "lastModificationDateTime": "12/05/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 13,
-        "frontText": "Who painted the 'Mona Lisa'?",
-        "backAnswer": "Leonardo da Vinci painted the 'Mona Lisa'.",
-        "image": "",
-        "lastModificationDateTime": "12/04/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 14,
-        "frontText": "What is the capital of South Africa?",
-        "backAnswer": "Pretoria is one of the three capital cities of South Africa.",
-        "image": "",
-        "lastModificationDateTime": "12/03/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 15,
-        "frontText": "Who discovered electricity?",
-        "backAnswer": "Benjamin Franklin is credited with discovering electricity.",
-        "image": "",
-        "lastModificationDateTime": "12/02/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 16,
-        "frontText": "What is the chemical symbol for gold?",
-        "backAnswer": "The chemical symbol for gold is Au.",
-        "image": "",
-        "lastModificationDateTime": "11/16/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 17,
-        "frontText": "Who is the author of 'Pride and Prejudice'?",
-        "backAnswer": "Jane Austen is the author of 'Pride and Prejudice'.",
-        "image": "",
-        "lastModificationDateTime": "10/16/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 18,
-        "frontText": "What is the largest ocean on Earth?",
-        "backAnswer": "The Pacific Ocean is the largest ocean on Earth.",
-        "image": "",
-        "lastModificationDateTime": "09/16/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 19,
-        "frontText": "Who founded Facebook?",
-        "backAnswer": "Mark Zuckerberg founded Facebook.",
-        "image": "",
-        "lastModificationDateTime": "12/11/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 20,
-        "frontText": "What is the capital of Japan?",
-        "backAnswer": "Tokyo is the capital of Japan.",
-        "image": "",
-        "lastModificationDateTime": "12/01/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 21,
-        "frontText": "Who developed the theory of relativity?",
-        "backAnswer": "Albert Einstein developed the theory of relativity.",
-        "image": "",
-        "lastModificationDateTime": "11/30/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 22,
-        "frontText": "What is the currency of Japan?",
-        "backAnswer": "The currency of Japan is the Japanese Yen.",
-        "image": "",
-        "lastModificationDateTime": "11/29/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 23,
-        "frontText": "Who wrote 'Romeo and Juliet'?",
-        "backAnswer": "William Shakespeare wrote 'Romeo and Juliet'.",
-        "image": "",
-        "lastModificationDateTime": "11/28/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 24,
-        "frontText": "What is the capital of Brazil?",
-        "backAnswer": "Brasília is the capital of Brazil.",
-        "image": "",
-        "lastModificationDateTime": "11/27/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 25,
-        "frontText": "Who painted 'Starry Night'?",
-        "backAnswer": "Vincent van Gogh painted 'Starry Night'.",
-        "image": "",
-        "lastModificationDateTime": "11/26/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 26,
-        "frontText": "What is the currency of India?",
-        "backAnswer": "The currency of India is the Indian Rupee.",
-        "image": "",
-        "lastModificationDateTime": "11/25/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 27,
-        "frontText": "Who is known as the 'Father of Computers'?",
-        "backAnswer": "Charles Babbage is known as the 'Father of Computers'.",
-        "image": "",
-        "lastModificationDateTime": "11/24/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 28,
-        "frontText": "What is the square root of 64?",
-        "backAnswer": "The square root of 64 is 8.",
-        "image": "",
-        "lastModificationDateTime": "11/23/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 29,
-        "frontText": "Who discovered penicillin?",
-        "backAnswer": "Alexander Fleming discovered penicillin.",
-        "image": "",
-        "lastModificationDateTime": "11/22/2023",
-        "status": "Want to Learn"
-      },
-      {
-        "id": 30,
-        "frontText": "What is the capital of Canada?",
-        "backAnswer": "Ottawa is the capital of Canada.",
-        "image": "",
-        "lastModificationDateTime": "11/21/2023",
-        "status": "Want to Learn"
-      }
-    ],
-    "projects": [
-      {
-        "id": 1,
-        "title": "The Google Keep App (React)",
-        "description": "In a recent project, I developed a React application modeled after Google Keep. Starting from scratch, I created a 'notes.js' module to export an array of notes, each with a title, content, creation date, and an optional image. I designed a 'Note' component to display these notes, inspired by Google Keep's user-friendly interface. The app features conditional rendering for notes without images and uses destructuring for efficient data handling. Key functionalities include an event listener on each note for user interaction and options to remove or cross out notes. This project highlights my skills in creating intuitive and interactive web applications using React.",
-        "link": "https://github.com/alialiyev818/React-App"
-      },
-      {
-        "id": 2,
-        "title": "Products Webpage",
-        "description": "In a recent web development project, I successfully integrated API data from dummyjson.com, showcasing my skills in fetching and error handling with JavaScript. The task involved dynamically displaying product data on a home page, including details like title, price, discount, category, and thumbnail. Enhancing user interaction, I implemented detailed product pages and features like keyword search, category filtering, and pagination for larger data sets. This project highlights my ability to create user-friendly, dynamic web pages with efficient data management.",
-        "link": "https://alialiyev818.github.io/Assignment-2/"
-      },
-      {
-        "id": 3,
-        "title": "Portfolio Webpage",
-        "description": "In a recent web development project, I created a personal website, showcasing my CSS skills. I meticulously replicated a template from https://web1-card-assignment.netlify.app/ to build my digital card, featuring links to my GitHub account and projects. Regular updates were pushed to my GitHub repository, maintaining an organized and current codebase. The final version of my website, with compressed source files, was submitted for evaluation, demonstrating my proficiency in web development and adherence to project guidelines.",
-        "link": "https://github.com/alialiyev818/aliyev_ali_15556"
-      },
-      {
-        "id": 4,
-        "title": "To-Do App (React)",
-        "description": "In a recent project, I developed a React-based To-Do List app, which served as a practical review of key React concepts. The app involved explaining the nuances between controlled and uncontrolled form elements and demonstrated changing the state of a parent component from child components. I implemented passing callback functions and data from child components to parent components through props. Key features included updating the ToDo List, where clicking on an item either changes its style to indicate completion or removes it from the list. Additionally, I refactored the app by moving the input section to a separate component, ensuring the same functionality while enhancing structure and design. I also incorporated validation to prevent adding empty strings as new ToDo items. This comprehensive project was hosted on GitHub, showcasing my ability to apply React principles in a functional application.",
-        "link": "https://github.com/alialiyev818/To_Do_App"
-      },
-      {
-        "id": 5,
-        "title": "Java App to Manipulate Data on Postgres",
-        "description": "In this assignment, I developed a Java application to interact with a database for a bookstore. My tasks included creating a schema with tables for Books, Authors, Orders, and Customers, defining primary and foreign keys, and visually representing this structure with an ER diagram. I wrote SQL statements to create these tables, ensuring they aligned with my schema. Then, I connected to the database through a Java application, implementing proper exception handling. The core of my work involved CRUD operations - inserting new records, retrieving book details, updating book information, and deleting entries. I also managed transactions, particularly when updating book stocks based on customer orders, ensuring data consistency. Lastly, I accessed and displayed database metadata like table structures and key details. This assignment encompassed database design, SQL, and Java programming, honing my skills in creating and managing database applications.",
-        "link": "https://github.com/alialiyev818/DBMS-Assigment-2"
-      },
-      {
-        "id": 6,
-        "title": "Interview with Araz Yusubov",
-        "description": "In an enlightening journey through the career of Araz Yusubov, a seasoned project management expert and Assistant Professor at Ada, we uncover a tale of resilience, leadership, and continuous learning. From humble beginnings as an IT specialist, Yusubov's relentless pursuit of knowledge led him to a Ph.D. and various impactful roles in companies and educational institutions. His skillset, honed over years of overcoming challenges, includes swift decision-making, effective team and conflict management, and excellent communication, underlining his exemplary leadership qualities. Yusubov's academic journey, beginning with a Bachelor's in Software Development from Baku State University, seamlessly transitioned into a Master's and then a Ph.D. in Information Processing and Control Systems. His professional path saw him contribute significantly at Maccenter, the British Council Azerbaijan, and the United Nations Department of Public Information in Azerbaijan, each role a testament to his versatility and expertise in technical support, software development, and event management. A pivotal phase in Yusubov's career was his time at BP, where he led transparency and public reporting initiatives, showcasing his leadership prowess in high-stakes situations. Returning to academia, he continued to inspire as a Dean and now an Assistant Professor at ADA University, embodying his belief that effective teaching and leadership are intertwined.",
-        "link": "https://www.youtube.com/watch?v=xzYbq-EOyo4"
-      }
-    ]
-  }
+  "cards": [
+    {
+      "id": 0,
+      "frontText": "What is the capital of Australia?",
+      "backAnswer": "Canberra is the capital of Australia",
+      "image": "",
+      "lastModificationDateTime": "12/21/2023, 1:38:59 PM",
+      "status": "Want to Learn",
+      "isFlipped": false
+    },
+    {
+      "id": 1,
+      "frontText": "Who wrote 'The Great Gatsby'?",
+      "backAnswer": "F. Scott Fitzgerald wrote 'The Great Gatsby'.",
+      "image": "",
+      "lastModificationDateTime": "12/21/2023, 4:17:42 AM",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 2,
+      "frontText": "What is the currency of China?",
+      "backAnswer": "The currency of China is the Renminbi (Yuan).",
+      "image": "",
+      "lastModificationDateTime": "12/15/2023",
+      "status": "Mark as Noted"
+    },
+    {
+      "id": 3,
+      "frontText": "Name two famous scientists in history..",
+      "backAnswer": "Isaac Newton and Albert Einstein are two famous scientists in history.",
+      "image": "",
+      "lastModificationDateTime": "12/21/2023, 4:00:32 AM",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 4,
+      "frontText": "What is the capital of France?",
+      "backAnswer": "Paris is the capital of France.",
+      "image": "",
+      "lastModificationDateTime": "12/13/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 5,
+      "frontText": "Who directed the movie 'Inception'?",
+      "backAnswer": "Christopher Nolan directed the movie 'Inception'.",
+      "image": "",
+      "lastModificationDateTime": "12/12/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 6,
+      "frontText": "What is the boiling point of water?",
+      "backAnswer": "The boiling point of water is 100 degrees Celsius (212 degrees Fahrenheit).",
+      "image": "",
+      "lastModificationDateTime": "12/11/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 7,
+      "frontText": "Who is the author of 'The Catcher in the Rye'?",
+      "backAnswer": "J.D. Salinger is the author of 'The Catcher in the Rye'.",
+      "image": "",
+      "lastModificationDateTime": "12/10/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 8,
+      "frontText": "What is the largest planet in our solar system?",
+      "backAnswer": "Jupiter is the largest planet in our solar.",
+      "image": "",
+      "lastModificationDateTime": "12/23/2023, 1:36:17 AM",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 9,
+      "frontText": "Who composed 'The Four Seasons'?",
+      "backAnswer": "Antonio Vivaldi composed 'The Four Seasons'.",
+      "image": "",
+      "lastModificationDateTime": "12/08/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 10,
+      "frontText": "What is the smallest prime number?",
+      "backAnswer": "The smallest prime number is 2.",
+      "image": "",
+      "lastModificationDateTime": "12/07/2023",
+      "status": "Mark as Noted"
+    },
+    {
+      "id": 11,
+      "frontText": "Who discovered penicillin??",
+      "backAnswer": "Alexander Fleming discovered penicillin.",
+      "image": "",
+      "lastModificationDateTime": "12/18/2023, 11:43:04 PM",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 12,
+      "frontText": "What is the speed of sound in air?",
+      "backAnswer": "The speed of sound in air is approximately 343 meters per second.",
+      "image": "",
+      "lastModificationDateTime": "12/05/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 13,
+      "frontText": "Who painted the 'Mona Lisa'?",
+      "backAnswer": "Leonardo da Vinci painted the 'Mona Lisa'.",
+      "image": "",
+      "lastModificationDateTime": "12/04/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 14,
+      "frontText": "What is the capital of South Africa?",
+      "backAnswer": "Pretoria is one of the three capital cities of South Africa.",
+      "image": "",
+      "lastModificationDateTime": "12/03/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 15,
+      "frontText": "Who discovered electricity?",
+      "backAnswer": "Benjamin Franklin is credited with discovering electricity.",
+      "image": "",
+      "lastModificationDateTime": "12/02/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 16,
+      "frontText": "What is the chemical symbol for gold?",
+      "backAnswer": "The chemical symbol for gold is Au.",
+      "image": "",
+      "lastModificationDateTime": "11/16/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 17,
+      "frontText": "Who is the author of 'Pride and Prejudice'?",
+      "backAnswer": "Jane Austen is the author of 'Pride and Prejudice'.",
+      "image": "",
+      "lastModificationDateTime": "10/16/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 18,
+      "frontText": "What is the largest ocean on Earth?",
+      "backAnswer": "The Pacific Ocean is the largest ocean on Earth.",
+      "image": "",
+      "lastModificationDateTime": "09/16/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 19,
+      "frontText": "Who founded Facebook?",
+      "backAnswer": "Mark Zuckerberg founded Facebook.",
+      "image": "",
+      "lastModificationDateTime": "12/11/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 20,
+      "frontText": "What is the capital of Japan?",
+      "backAnswer": "Tokyo is the capital of Japan.",
+      "image": "",
+      "lastModificationDateTime": "12/01/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 21,
+      "frontText": "Who developed the theory of relativity?",
+      "backAnswer": "Albert Einstein developed the theory of relativity.",
+      "image": "",
+      "lastModificationDateTime": "11/30/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 22,
+      "frontText": "What is the currency of Japan?",
+      "backAnswer": "The currency of Japan is the Japanese Yen.",
+      "image": "",
+      "lastModificationDateTime": "11/29/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 23,
+      "frontText": "Who wrote 'Romeo and Juliet'?",
+      "backAnswer": "William Shakespeare wrote 'Romeo and Juliet'.",
+      "image": "",
+      "lastModificationDateTime": "11/28/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 24,
+      "frontText": "What is the capital of Brazil?",
+      "backAnswer": "Brasília is the capital of Brazil.",
+      "image": "",
+      "lastModificationDateTime": "11/27/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 25,
+      "frontText": "Who painted 'Starry Night'?",
+      "backAnswer": "Vincent van Gogh painted 'Starry Night'.",
+      "image": "",
+      "lastModificationDateTime": "11/26/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 26,
+      "frontText": "What is the currency of India?",
+      "backAnswer": "The currency of India is the Indian Rupee.",
+      "image": "",
+      "lastModificationDateTime": "11/25/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 27,
+      "frontText": "Who is known as the 'Father of Computers'?",
+      "backAnswer": "Charles Babbage is known as the 'Father of Computers'.",
+      "image": "",
+      "lastModificationDateTime": "11/24/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 28,
+      "frontText": "What is the square root of 64?",
+      "backAnswer": "The square root of 64 is 8.",
+      "image": "",
+      "lastModificationDateTime": "11/23/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 29,
+      "frontText": "Who discovered penicillin?",
+      "backAnswer": "Alexander Fleming discovered penicillin.",
+      "image": "",
+      "lastModificationDateTime": "11/22/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 30,
+      "frontText": "What is the capital of Canada?",
+      "backAnswer": "Ottawa is the capital of Canada.",
+      "image": "",
+      "lastModificationDateTime": "11/21/2023",
+      "status": "Want to Learn"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "The Google Keep App (React)",
+      "description": "In a recent project, I developed a React application modeled after Google Keep. Starting from scratch, I created a 'notes.js' module to export an array of notes, each with a title, content, creation date, and an optional image. I designed a 'Note' component to display these notes, inspired by Google Keep's user-friendly interface. The app features conditional rendering for notes without images and uses destructuring for efficient data handling. Key functionalities include an event listener on each note for user interaction and options to remove or cross out notes. This project highlights my skills in creating intuitive and interactive web applications using React.",
+      "link": "https://github.com/alialiyev818/React-App"
+    },
+    {
+      "id": 2,
+      "title": "Products Webpage",
+      "description": "In a recent web development project, I successfully integrated API data from dummyjson.com, showcasing my skills in fetching and error handling with JavaScript. The task involved dynamically displaying product data on a home page, including details like title, price, discount, category, and thumbnail. Enhancing user interaction, I implemented detailed product pages and features like keyword search, category filtering, and pagination for larger data sets. This project highlights my ability to create user-friendly, dynamic web pages with efficient data management.",
+      "link": "https://alialiyev818.github.io/Assignment-2/"
+    },
+    {
+      "id": 3,
+      "title": "Portfolio Webpage",
+      "description": "In a recent web development project, I created a personal website, showcasing my CSS skills. I meticulously replicated a template from https://web1-card-assignment.netlify.app/ to build my digital card, featuring links to my GitHub account and projects. Regular updates were pushed to my GitHub repository, maintaining an organized and current codebase. The final version of my website, with compressed source files, was submitted for evaluation, demonstrating my proficiency in web development and adherence to project guidelines.",
+      "link": "https://github.com/alialiyev818/aliyev_ali_15556"
+    },
+    {
+      "id": 4,
+      "title": "To-Do App (React)",
+      "description": "In a recent project, I developed a React-based To-Do List app, which served as a practical review of key React concepts. The app involved explaining the nuances between controlled and uncontrolled form elements and demonstrated changing the state of a parent component from child components. I implemented passing callback functions and data from child components to parent components through props. Key features included updating the ToDo List, where clicking on an item either changes its style to indicate completion or removes it from the list. Additionally, I refactored the app by moving the input section to a separate component, ensuring the same functionality while enhancing structure and design. I also incorporated validation to prevent adding empty strings as new ToDo items. This comprehensive project was hosted on GitHub, showcasing my ability to apply React principles in a functional application.",
+      "link": "https://github.com/alialiyev818/To_Do_App"
+    },
+    {
+      "id": 5,
+      "title": "Java App to Manipulate Data on Postgres",
+      "description": "In this assignment, I developed a Java application to interact with a database for a bookstore. My tasks included creating a schema with tables for Books, Authors, Orders, and Customers, defining primary and foreign keys, and visually representing this structure with an ER diagram. I wrote SQL statements to create these tables, ensuring they aligned with my schema. Then, I connected to the database through a Java application, implementing proper exception handling. The core of my work involved CRUD operations - inserting new records, retrieving book details, updating book information, and deleting entries. I also managed transactions, particularly when updating book stocks based on customer orders, ensuring data consistency. Lastly, I accessed and displayed database metadata like table structures and key details. This assignment encompassed database design, SQL, and Java programming, honing my skills in creating and managing database applications.",
+      "link": "https://github.com/alialiyev818/DBMS-Assigment-2"
+    },
+    {
+      "id": 6,
+      "title": "Interview with Araz Yusubov",
+      "description": "In an enlightening journey through the career of Araz Yusubov, a seasoned project management expert and Assistant Professor at Ada, we uncover a tale of resilience, leadership, and continuous learning. From humble beginnings as an IT specialist, Yusubov's relentless pursuit of knowledge led him to a Ph.D. and various impactful roles in companies and educational institutions. His skillset, honed over years of overcoming challenges, includes swift decision-making, effective team and conflict management, and excellent communication, underlining his exemplary leadership qualities. Yusubov's academic journey, beginning with a Bachelor's in Software Development from Baku State University, seamlessly transitioned into a Master's and then a Ph.D. in Information Processing and Control Systems. His professional path saw him contribute significantly at Maccenter, the British Council Azerbaijan, and the United Nations Department of Public Information in Azerbaijan, each role a testament to his versatility and expertise in technical support, software development, and event management. A pivotal phase in Yusubov's career was his time at BP, where he led transparency and public reporting initiatives, showcasing his leadership prowess in high-stakes situations. Returning to academia, he continued to inspire as a Dean and now an Assistant Professor at ADA University, embodying his belief that effective teaching and leadership are intertwined.",
+      "link": "https://www.youtube.com/watch?v=xzYbq-EOyo4"
+    }
+  ],
+  "messages": [
+    {
+      "subject": "New",
+      "email": "new@gmail.com",
+      "content": "Hiii",
+      "date": 1702278439514,
+      "id": 0
+    },
+    {
+      "name": "asdas",
+      "email": "alibmw818@gmail.com",
+      "message": "adasd",
+      "createdDate": "12/26/2023, 10:30:15 PM",
+      "id": 1
+    }
+  ]
+}
