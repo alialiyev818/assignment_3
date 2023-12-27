@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import MyProjects from "../components/MyProjects.jsx";
 import Navbar from "../components/NavBar.jsx";
+import "../assets/style/pages/home.css";
 
 const Home = () => {
     const [myProjects, setMyProjects] = useState([]);

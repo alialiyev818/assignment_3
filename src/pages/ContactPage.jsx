@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/NavBar.jsx";
 import ContactForm from "../components/ContactForm.jsx";
+import "../assets/style/pages/contactpage.css";
 
 const ContactPage = () => {
     return (
