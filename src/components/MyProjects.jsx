@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/style/components/myprojects.css";
 
 const MyProjects = ({ projects }) => {
     return (
