@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "../assets/style/components/contactform.css";
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
