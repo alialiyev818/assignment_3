@@ -1,30 +1,33 @@
-import React, { useState } from 'react';
-import Flashcard from '../components/Flashcard';
-import NavBar from "../components/NavBar.jsx";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import FlashCardItem from "../components/FlashCardItem.jsx";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function FlashcardsPage() {
-  const [flashcards, setFlashcards] = useState([]);
+const FlashCards = () => {
+    const [cards, setCards] = useState([]);
 
-  const handleDelete = (cardToDelete) => {
-    setFlashcards(flashcards.filter(card => card !== cardToDelete));
-  };
+    useEffect(() => {
+        const fetchCards = async () => {
+            try {
+                const response = await axios.get("http://localhost:3001/cards");
+                setCards(response.data);
+            } catch (error) {
+                console.error("Error fetching cards:", error);
+            }
+        };
 
-  const handleEdit = (cardToEdit) => {};
+        fetchCards();
+    }, []);
 
-  return (
-    <div>
-      <NavBar/>
-      <h1>Flashcards Page</h1>
-      {flashcards.map((card, index) => (
-        <Flashcard 
-          key={index} 
-          card={card} 
-          onDelete={handleDelete} 
-          onEdit={handleEdit}
-        />
-      ))}
-    </div>
-  );
-}
+    return (
+        <div className="container">
+            <div className="flashcardPlacement">
+                {cards.map((card) => (
+                    <FlashCardItem key={card.id} card={card} />
+                ))}
+            </div>
+        </div>
+    );
+};
 
-export default FlashcardsPage;
+export default FlashCards;
