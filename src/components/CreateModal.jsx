@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../assets/style/components/createmodal.css";
 
 const CreateModal = ({ onCreate, onClose }) => {
     const [frontText, setFrontText] = useState("");

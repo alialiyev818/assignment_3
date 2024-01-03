@@ -7,6 +7,7 @@ import UpdateModal from "../components/UpdateModal.jsx";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "../assets/style/pages/flashcards.css";
 
 const FlashCards = () => {
     const [cards, setCards] = useState([]);
