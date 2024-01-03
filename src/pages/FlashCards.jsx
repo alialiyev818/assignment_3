@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
+import InfiniteScroll from "react-infinite-scroll-component";
 import FlashCardItem from "../components/FlashCardItem.jsx";
 import Navbar from "../components/NavBar.jsx";
 import CreateModal from "../components/CreateModal.jsx";
@@ -18,19 +19,125 @@ const FlashCards = () => {
     const [searchInput, setSearchInput] = useState("");
     const [selectedStatus, setSelectedStatus] = useState("All status");
     const [selectedSortings, setSelectedSortings] = useState(["IdDecreased"]);
+    const [hasMore, setHasMore] = useState(true);
+    const [page, setPage] = useState(1);
+
+    const [isLoadingMore, setIsLoadingMore] = useState(false);
+
+    const fetchInitialCards = useCallback(async () => {
+        try {
+            const response = await axios.get(`http://localhost:3001/cards?_page=${page}&_limit=6`);
+            const initialCards = response.data;
+
+            if (initialCards.length === 0) {
+                setHasMore(false);
+                return;
+            }
+
+            setPage(page + 1);
+            setCards(initialCards);
+        } catch (error) {
+            console.error("Error fetching initial cards:", error);
+        }
+    }, [page]);
+
+    const loadMore = useCallback(async () => {
+        try {
+            setIsLoadingMore(true);
+            const response = await axios.get(`http://localhost:3001/cards?_page=${page}&_limit=6`);
+            const newCards = response.data;
+    
+            if (newCards.length === 0) {
+                setHasMore(false);
+                return;
+            }
+    
+            setTimeout(() => {
+                setPage(page + 1);
+                setCards((prevCards) => [...prevCards, ...newCards]);
+            }, 300);
+        } catch (error) {
+            console.error("Error fetching more cards:", error);
+        } finally {
+            setIsLoadingMore(false);
+        }
+    }, [page]);    
 
     useEffect(() => {
-        const fetchCards = async () => {
+        fetchInitialCards();
+    }, []);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const { scrollTop, clientHeight, scrollHeight } = document.documentElement;
+
+            if (scrollTop + clientHeight >= scrollHeight - 10 && !isLoadingMore && hasMore) {
+                loadMore();
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, [isLoadingMore, hasMore, loadMore]); 
+
+    useEffect(() => {
+        const fetchDataAndSetDefaultSorting = async () => {
             try {
-                const response = await axios.get("http://localhost:3001/cards");
-                setCards(response.data);
+                const response = await axios.get("http://localhost:3001/cards?_page=1&_limit=6");
+                const initialCards = response.data;
+
+                setCards(initialCards);
+                setSelectedSortings(["IdDecreased"]);
+            } catch (error) {
+                console.error("Error fetching initial cards:", error);
+            }
+        };
+
+        fetchDataAndSetDefaultSorting();
+    }, []);             
+
+    useEffect(() => {
+        const fetchAllCards = async () => {
+            try {
+                let apiUrl = "http://localhost:3001/cards";
+                if (selectedStatus !== "All status") {
+                    apiUrl += `?status=${selectedStatus}`;
+                }
+
+                const response = await axios.get(apiUrl);
+
+                let sortedCards = response.data;
+
+                selectedSortings.forEach((sortingOption) => {
+                    switch (sortingOption) {
+                        case "IdIncreased":
+                            sortedCards = sortedCards.sort((a, b) => a.id - b.id);
+                            break;
+                        case "IdDecreased":
+                            sortedCards = sortedCards.sort((a, b) => b.id - a.id);
+                            break;
+                        case "frontTextAZ":
+                            sortedCards = sortedCards.sort((a, b) => a.frontText.localeCompare(b.frontText));
+                            break;
+                        case "frontTextZA":
+                            sortedCards = sortedCards.sort((a, b) => b.frontText.localeCompare(a.frontText));
+                            break;
+                        default:
+                            break;
+                    }
+                });
+
+                setCards(sortedCards);
             } catch (error) {
                 console.error("Error fetching cards:", error);
             }
         };
 
-        fetchCards();
-    }, []);
+        fetchAllCards();
+    }, [selectedStatus, selectedSortings]);
 
     const flipAction = (cardId) => {
         setCards((prevCards) =>
@@ -149,22 +256,29 @@ const FlashCards = () => {
         <div className="all">
             <Navbar />
             <div className="container">
-                <div className="cardsPlacement">
-                    <div className="buttonsPart">
-                        <button className="btn-slct" onClick={shareAction}>
-                            Share
-                        </button>
-                        <input
-                            className="search"
-                            placeholder="Enter question you want to search..."
-                            value={searchInput}
-                            onChange={handleSearchInputChange}
-                        ></input>
-                        <button className="btn-slct" onClick={openCreateModal}>
-                            Create
-                        </button>
-                    </div>
-                    <div className="seperate-operations">
+                <InfiniteScroll
+                    dataLength={cards.length}
+                    next={loadMore}
+                    hasMore={hasMore}
+                    loader={<h4>Loading More...</h4>}
+                    endMessage={<p>No more cards to load.</p>}
+                >
+                    <div className="cardsPlacement">
+                        <div className="buttonsPart">
+                            <button className="btn-slct" onClick={shareAction}>
+                                Share
+                            </button>
+                            <input
+                                className="search"
+                                placeholder="Enter question you want to search..."
+                                value={searchInput}
+                                onChange={handleSearchInputChange}
+                            ></input>
+                            <button className="btn-slct" onClick={openCreateModal}>
+                                Create
+                            </button>
+                        </div>
+                        <div className="seperate-operations">
                             <div className="optionsPart">
                                 <form id="allOperations">
                                     <select
@@ -202,10 +316,11 @@ const FlashCards = () => {
                                         onStatusChange={statusChangeAction}
                                         isSelected={selectedCards.includes(card.id)}
                                     />
-                            ))}
+                                ))}
+                            </div>
                         </div>
                     </div>
-                </div>
+                </InfiniteScroll>
                 {isCreateModalOpen && (
                     <CreateModal onCreate={createAction} onClose={closeCreateModal} />
                 )}
