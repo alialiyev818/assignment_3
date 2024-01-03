@@ -14,6 +14,9 @@ const FlashCards = () => {
     const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
     const [isUpdateModalOpen, setIsUpdateModalOpen] = useState(false);
     const [updateCard, setUpdateCard] = useState(null);
+    const [searchInput, setSearchInput] = useState("");
+    const [selectedStatus, setSelectedStatus] = useState("All status");
+    const [selectedSortings, setSelectedSortings] = useState(["IdDecreased"]);
 
     useEffect(() => {
         const fetchCards = async () => {
@@ -34,6 +37,17 @@ const FlashCards = () => {
                 card.id === cardId ? { ...card, isFlipped: !card.isFlipped } : card
             )
         );
+    };
+
+    const statusChangeAction = (event) => {
+        const newStatus = event.target.value;
+        setSelectedStatus(newStatus);
+        setCards([]);
+    };
+
+    const sortingChangeAction = (event) => {
+        const selectedOptions = Array.from(event.target.selectedOptions, (option) => option.value);
+        setSelectedSortings(selectedOptions);
     };
 
     const createAction = async (newCard) => {
@@ -102,6 +116,15 @@ const FlashCards = () => {
         }
     };
 
+    const handleSearchInputChange = (event) => {
+        setSearchInput(event.target.value);
+    };
+
+    const filteredCards = cards.filter((card) =>
+        card.frontText.toLowerCase().includes(searchInput.toLowerCase()) ||
+        card.backAnswer.toLowerCase().includes(searchInput.toLowerCase())
+    );
+
     const selectedCardAction = (cardId) => {
         setSelectedCards((prevSelected) =>
             prevSelected.includes(cardId)
@@ -130,22 +153,54 @@ const FlashCards = () => {
                         <button className="btn-slct" onClick={shareAction}>
                             Share
                         </button>
+                        <input
+                            className="search"
+                            placeholder="Enter question you want to search..."
+                            value={searchInput}
+                            onChange={handleSearchInputChange}
+                        ></input>
                         <button className="btn-slct" onClick={openCreateModal}>
                             Create
                         </button>
                     </div>
                     <div className="seperate-operations">
-                        <div className="flashcardPlacement">
-                            {cards.map((card) => (
-                                <FlashCardItem
-                                    key={card.id}
-                                    card={card}
-                                    onDelete={deleteAction}
-                                    onUpdate={updateAction}
-                                    onSelect={selectedCardAction}
-                                    onFlip={flipAction}
-                                    isSelected={selectedCards.includes(card.id)}
-                                />
+                            <div className="optionsPart">
+                                <form id="allOperations">
+                                    <select
+                                        id="filterstatus"
+                                        value={selectedStatus}
+                                        onChange={statusChangeAction}
+                                    >
+                                        <option>All status</option>
+                                        <option>Want to Learn</option>
+                                        <option>Mark as Noted</option>
+                                        <option>Learned</option>
+                                    </select>
+                                    <select
+                                        id="sortOrder"
+                                        value={selectedSortings}
+                                        onChange={sortingChangeAction}
+
+                                    >
+                                        <option value="IdDecreased">Choose one of the options...</option>
+                                        <option value="IdIncreased">Sort cards as first added</option>
+                                        <option value="frontTextAZ">Sort frontText in alphabetical order</option>
+                                        <option value="frontTextZA">Sort frontText reverse alphabetical order</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div className="flashcardPlacement">
+                                {filteredCards.map((card) => (
+                                    <FlashCardItem
+                                        key={card.id}
+                                        card={card}
+                                        onDelete={deleteAction}
+                                        onUpdate={updateAction}
+                                        onSelect={selectedCardAction}
+                                        onFlip={flipAction}
+                                        onStatusChange={statusChangeAction}
+                                        isSelected={selectedCards.includes(card.id)}
+                                    />
                             ))}
                         </div>
                     </div>
