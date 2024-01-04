@@ -1,13 +1,53 @@
 {
   "cards": [
     {
-      "id": 5,
-      "frontText": "Who direasdascted the movie 'Inception'?",
-      "backAnswer": "Christopher Nodsaddasaddalan directed the movie 'Inception'.",
+      "id": 0,
+      "frontText": "What is the capital of Australia?",
+      "backAnswer": "Canberra is the capital of Australia",
       "image": "",
-      "lastModificationDateTime": "1/3/2024, 3:34:56 AM",
+      "lastModificationDateTime": "12/21/2023, 1:38:59 PM",
       "status": "Want to Learn",
       "isFlipped": false
+    },
+    {
+      "id": 1,
+      "frontText": "Who wrote 'The Great Gatsby'?",
+      "backAnswer": "F. Scott Fitzgerald wrote 'The Great Gatsby'.",
+      "image": "",
+      "lastModificationDateTime": "12/21/2023, 4:17:42 AM",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 2,
+      "frontText": "What is the currency of China?",
+      "backAnswer": "The currency of China is the Renminbi (Yuan).",
+      "image": "",
+      "lastModificationDateTime": "12/15/2023",
+      "status": "Mark as Noted"
+    },
+    {
+      "id": 3,
+      "frontText": "Name two famous scientists in history..",
+      "backAnswer": "Isaac Newton and Albert Einstein are two famous scientists in history.",
+      "image": "",
+      "lastModificationDateTime": "12/21/2023, 4:00:32 AM",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 4,
+      "frontText": "What is the capital of France?",
+      "backAnswer": "Paris is the capital of France.",
+      "image": "",
+      "lastModificationDateTime": "12/13/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 5,
+      "frontText": "Who directed the movie 'Inception'?",
+      "backAnswer": "Christopher Nolan directed the movie 'Inception'.",
+      "image": "",
+      "lastModificationDateTime": "12/12/2023",
+      "status": "Want to Learn"
     },
     {
       "id": 6,
@@ -195,11 +235,11 @@
     },
     {
       "id": 29,
-      "frontText": "Who discovervghhgvnicillin?",
-      "backAnswer": "Alexander hggvgdiscovered penicillin.",
+      "frontText": "Who discovered penicillin?",
+      "backAnswer": "Alexander Fleming discovered penicillin.",
       "image": "",
-      "lastModificationDateTime": "1/1/2024, 11:21:43 PM",
-      "status": "Mark as Noted"
+      "lastModificationDateTime": "11/22/2023",
+      "status": "Want to Learn"
     },
     {
       "id": 30,
@@ -210,44 +250,132 @@
       "status": "Want to Learn"
     },
     {
-      "frontText": "asdad",
-      "backAnswer": "asdadadads",
+      "id": 31,
+      "frontText": "Who is the author of '1984'?",
+      "backAnswer": "George Orwell is the author of '1984'.",
       "image": "",
-      "status": "Want to Learn",
-      "lastModificationDateTime": "1/2/2024, 11:19:56 PM",
-      "id": 31
+      "lastModificationDateTime": "11/20/2023",
+      "status": "Want to Learn"
     },
     {
-      "frontText": "asdda",
-      "backAnswer": "cxzczc",
+      "id": 32,
+      "frontText": "What is the largest mammal?",
+      "backAnswer": "The blue whale is the largest mammal.",
       "image": "",
-      "status": "Want to Learn",
-      "lastModificationDateTime": "1/2/2024, 11:20:05 PM",
-      "id": 32
+      "lastModificationDateTime": "11/19/2023",
+      "status": "Want to Learn"
     },
     {
-      "frontText": "xzczz",
-      "backAnswer": "czxczcz",
+      "id": 33,
+      "frontText": "Who discovered America?",
+      "backAnswer": "Christopher Columbus is credited with discovering America.",
       "image": "",
-      "status": "Want to Learn",
-      "lastModificationDateTime": "1/2/2024, 11:20:11 PM",
-      "id": 33
+      "lastModificationDateTime": "11/18/2023",
+      "status": "Want to Learn"
     },
     {
-      "frontText": "adsdadds",
-      "backAnswer": "dasdasd",
+      "id": 34,
+      "frontText": "What is the capital of Russia?",
+      "backAnswer": "Moscow is the capital of Russia.",
       "image": "",
-      "status": "Want to Learn",
-      "lastModificationDateTime": "1/2/2024, 11:51:14 PM",
-      "id": 34
+      "lastModificationDateTime": "11/17/2023",
+      "status": "Want to Learn"
     },
     {
-      "frontText": "sdf",
-      "backAnswer": "sfd",
+      "id": 35,
+      "frontText": "Who is the author of 'To Kill a Mockingbird'?",
+      "backAnswer": "Harper Lee is the author of 'To Kill a Mockingbird'.",
       "image": "",
-      "status": "Want to Learn",
-      "lastModificationDateTime": "1/3/2024, 12:22:23 PM",
-      "id": 35
+      "lastModificationDateTime": "11/16/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 36,
+      "frontText": "What is the currency of the United Kingdom?",
+      "backAnswer": "The currency of the United Kingdom is the British Pound.",
+      "image": "",
+      "lastModificationDateTime": "11/15/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 37,
+      "frontText": "Who discovered the law of gravity?",
+      "backAnswer": "Isaac Newton discovered the law of gravity.",
+      "image": "",
+      "lastModificationDateTime": "11/14/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 38,
+      "frontText": "What is the largest desert in the world?",
+      "backAnswer": "Antarctica is the largest desert in the world.",
+      "image": "",
+      "lastModificationDateTime": "11/13/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 39,
+      "frontText": "Who painted the ceiling of the Sistine Chapel?",
+      "backAnswer": "Michelangelo painted the ceiling of the Sistine Chapel.",
+      "image": "",
+      "lastModificationDateTime": "11/12/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 40,
+      "frontText": "What is the capital of Mexico?",
+      "backAnswer": "Mexico City is the capital of Mexico.",
+      "image": "",
+      "lastModificationDateTime": "11/11/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 41,
+      "frontText": "Who wrote 'The Odyssey'?",
+      "backAnswer": "Homer is traditionally considered the author of 'The Odyssey'.",
+      "image": "",
+      "lastModificationDateTime": "11/10/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 42,
+      "frontText": "What is the speed of light?",
+      "backAnswer": "The speed of light is approximately 299,792 kilometers per second.",
+      "image": "",
+      "lastModificationDateTime": "11/09/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 43,
+      "frontText": "Who is the author of 'War and Peace'?",
+      "backAnswer": "Leo Tolstoy is the author of 'War and Peace'.",
+      "image": "",
+      "lastModificationDateTime": "11/08/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 44,
+      "frontText": "What is the capital of Argentina?",
+      "backAnswer": "Buenos Aires is the capital of Argentina.",
+      "image": "",
+      "lastModificationDateTime": "11/07/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 45,
+      "frontText": "Who discovered the polio vaccine?",
+      "backAnswer": "Jonas Salk is credited with discovering the polio vaccine.",
+      "image": "",
+      "lastModificationDateTime": "11/06/2023",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 46,
+      "frontText": "What is the currency of Brazil?",
+      "backAnswer": "The currency of Brazil is the Brazilian Real.",
+      "image": "",
+      "lastModificationDateTime": "11/05/2023",
+      "status": "Want to Learn"
     }
   ],
   "projects": [
@@ -255,7 +383,7 @@
       "id": 1,
       "title": "The Google Keep App (React)",
       "description": "In a recent project, I developed a React application modeled after Google Keep. Starting from scratch, I created a 'notes.js' module to export an array of notes, each with a title, content, creation date, and an optional image. I designed a 'Note' component to display these notes, inspired by Google Keep's user-friendly interface. The app features conditional rendering for notes without images and uses destructuring for efficient data handling. Key functionalities include an event listener on each note for user interaction and options to remove or cross out notes. This project highlights my skills in creating intuitive and interactive web applications using React.",
-      "link": "https://github.com/alialiyev818/React-App"
+      "link": "https://alialiyev818.github.io/React-App/"
     },
     {
       "id": 2,
@@ -267,13 +395,13 @@
       "id": 3,
       "title": "Portfolio Webpage",
       "description": "In a recent web development project, I created a personal website, showcasing my CSS skills. I meticulously replicated a template from https://web1-card-assignment.netlify.app/ to build my digital card, featuring links to my GitHub account and projects. Regular updates were pushed to my GitHub repository, maintaining an organized and current codebase. The final version of my website, with compressed source files, was submitted for evaluation, demonstrating my proficiency in web development and adherence to project guidelines.",
-      "link": "https://github.com/alialiyev818/aliyev_ali_15556"
+      "link": "https://alialiyev818.github.io/aliyev_ali_15556/"
     },
     {
       "id": 4,
       "title": "To-Do App (React)",
       "description": "In a recent project, I developed a React-based To-Do List app, which served as a practical review of key React concepts. The app involved explaining the nuances between controlled and uncontrolled form elements and demonstrated changing the state of a parent component from child components. I implemented passing callback functions and data from child components to parent components through props. Key features included updating the ToDo List, where clicking on an item either changes its style to indicate completion or removes it from the list. Additionally, I refactored the app by moving the input section to a separate component, ensuring the same functionality while enhancing structure and design. I also incorporated validation to prevent adding empty strings as new ToDo items. This comprehensive project was hosted on GitHub, showcasing my ability to apply React principles in a functional application.",
-      "link": "https://github.com/alialiyev818/To_Do_App"
+      "link": "https://alialiyev818.github.io/To_Do_App/"
     },
     {
       "id": 5,
@@ -295,13 +423,6 @@
       "content": "Hiii",
       "date": 1702278439514,
       "id": 0
-    },
-    {
-      "name": "asdas",
-      "email": "alibmw818@gmail.com",
-      "message": "adasd",
-      "createdDate": "12/26/2023, 10:30:15 PM",
-      "id": 1
     }
   ]
 }

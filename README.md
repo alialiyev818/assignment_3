@@ -1,85 +1,58 @@
-# Commands
+# Instructions for Downloading and Running the App Locally
 
-## For dependencies:
+Please follow these steps to get the app up and running on your local machine as well as the JASON server.
 
-npm install --force
-npm install -g json-server
-⁠npm install react-router-dom --force
-npm install axios --force
-npm install react-toastify --force
+## Prerequisites
 
-## For Running:
+Before you start, make sure you have the following installed:
 
-json-server --watch src/json/info.json --port 3001
-npm start
+- **Node.js**: [Download Node.js](https://nodejs.org/)
+- **Code Editor**: VSCode is recommended, but you can use any other editor. [Download VSCode](https://code.visualstudio.com/)
 
-# Getting Started with Create React App
+## Downloading the Repository
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To get the code, follow these steps:
 
-## Available Scripts
+1. Visit the GitHub repository at [https://github.com/alialiyev818/assignment_3](https://github.com/alialiyev818/assignment_3).
+2. Click the 'Code' button and select 'Download ZIP'.
+3. Extract the ZIP file (`assignment_3-main.zip`) to your preferred location on your PC.
 
-In the project directory, you can run:
+## Opening the App
 
-### `npm start`
+To open the app in VSCode:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Right-click on the extracted folder (`assignment_3-main`).
+2. Choose "Open With Code" from the context menu. On Windows 11, you might need to select 'Show more options' to find this.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installing Dependencies
 
-### `npm test`
+Install all required dependencies by following these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Open VSCode with the project folder.
+2. Navigate to 'Terminal' > 'New Terminal' from the top menu.
+3. Execute these commands in the terminal:
 
-### `npm run build`
+   ```bash
+   npm install --force
+   npm install -g json-server
+   npm install react-router-dom --force
+   npm install axios --force
+   npm install react-toastify --force
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Starting the App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the app:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. In the terminal, type `npm start` and press Enter.
+2. This will start the app on `localhost:3000` and should automatically open in your default web browser.
 
-### `npm run eject`
+## Starting the JSON Server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To set up the JSON server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Open a new terminal in VSCode (do not close the terminal running the app as there needs to be 2 seperate terminals that are running the App and Server concurrently).
+2. Run `json-server --watch src/json/info.json --port 3001` to start the server on `localhost:3001`.
+3. Important: The app and the server must run on different ports (`3000` and `3001` respectively).
+4. After starting the server, refresh the webpage where the app is running to see the server integration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Enjoy the App!!!

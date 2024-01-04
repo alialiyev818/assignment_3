@@ -286,7 +286,7 @@ const FlashCards = () => {
                                         value={selectedStatus}
                                         onChange={statusChangeAction}
                                     >
-                                        <option>All status</option>
+                                        <option>All Statuses</option>
                                         <option>Want to Learn</option>
                                         <option>Mark as Noted</option>
                                         <option>Learned</option>
@@ -297,10 +297,10 @@ const FlashCards = () => {
                                         onChange={sortingChangeAction}
 
                                     >
-                                        <option value="IdDecreased">Choose one of the options...</option>
-                                        <option value="IdIncreased">Sort cards as first added</option>
-                                        <option value="frontTextAZ">Sort frontText in alphabetical order</option>
-                                        <option value="frontTextZA">Sort frontText reverse alphabetical order</option>
+                                        <option value="IdDecreased">Latest Additions First</option>
+                                        <option value="IdIncreased">Oldest Additions First</option>
+                                        <option value="frontTextAZ">Alphabetical by Front Text</option>
+                                        <option value="frontTextZA">Reverse Alphabetical by Front Text</option>
                                     </select>
                                 </form>
                             </div>
