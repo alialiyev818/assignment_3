@@ -31,7 +31,7 @@
       "backAnswer": "Isaac Newton and Albert Einstein are two famous scientists in history.",
       "image": "",
       "lastModificationDateTime": "12/21/2023, 4:00:32 AM",
-      "status": "Want to Learn"
+      "status": "Learned"
     },
     {
       "id": 4,
@@ -47,7 +47,7 @@
       "backAnswer": "Christopher Nolan directed the movie 'Inception'.",
       "image": "",
       "lastModificationDateTime": "12/12/2023",
-      "status": "Want to Learn"
+      "status": "Learned"
     },
     {
       "id": 6,
@@ -63,7 +63,7 @@
       "backAnswer": "J.D. Salinger is the author of 'The Catcher in the Rye'.",
       "image": "",
       "lastModificationDateTime": "12/10/2023",
-      "status": "Want to Learn"
+      "status": "Learned"
     },
     {
       "id": 8,
@@ -87,7 +87,7 @@
       "backAnswer": "The smallest prime number is 2.",
       "image": "",
       "lastModificationDateTime": "12/07/2023",
-      "status": "Mark as Noted"
+      "status": "Learned"
     },
     {
       "id": 11,
@@ -95,7 +95,7 @@
       "backAnswer": "Alexander Fleming discovered penicillin.",
       "image": "",
       "lastModificationDateTime": "12/18/2023, 11:43:04 PM",
-      "status": "Want to Learn"
+      "status": "Learned"
     },
     {
       "id": 12,
@@ -103,7 +103,7 @@
       "backAnswer": "The speed of sound in air is approximately 343 meters per second.",
       "image": "",
       "lastModificationDateTime": "12/05/2023",
-      "status": "Want to Learn"
+      "status": "Learned"
     },
     {
       "id": 13,
@@ -143,7 +143,7 @@
       "backAnswer": "Jane Austen is the author of 'Pride and Prejudice'.",
       "image": "",
       "lastModificationDateTime": "10/16/2023",
-      "status": "Want to Learn"
+      "status": "Mark as Noted"
     },
     {
       "id": 18,
@@ -183,7 +183,7 @@
       "backAnswer": "The currency of Japan is the Japanese Yen.",
       "image": "",
       "lastModificationDateTime": "11/29/2023",
-      "status": "Want to Learn"
+      "status": "Mark as Noted"
     },
     {
       "id": 23,
@@ -223,7 +223,7 @@
       "backAnswer": "Charles Babbage is known as the 'Father of Computers'.",
       "image": "",
       "lastModificationDateTime": "11/24/2023",
-      "status": "Want to Learn"
+      "status": "Mark as Noted"
     },
     {
       "id": 28,
@@ -231,14 +231,6 @@
       "backAnswer": "The square root of 64 is 8.",
       "image": "",
       "lastModificationDateTime": "11/23/2023",
-      "status": "Want to Learn"
-    },
-    {
-      "id": 29,
-      "frontText": "Who discovered penicillin?",
-      "backAnswer": "Alexander Fleming discovered penicillin.",
-      "image": "",
-      "lastModificationDateTime": "11/22/2023",
       "status": "Want to Learn"
     },
     {
@@ -255,7 +247,7 @@
       "backAnswer": "George Orwell is the author of '1984'.",
       "image": "",
       "lastModificationDateTime": "11/20/2023",
-      "status": "Want to Learn"
+      "status": "Mark as Noted"
     },
     {
       "id": 32,
@@ -287,7 +279,7 @@
       "backAnswer": "Harper Lee is the author of 'To Kill a Mockingbird'.",
       "image": "",
       "lastModificationDateTime": "11/16/2023",
-      "status": "Want to Learn"
+      "status": "Mark as Noted"
     },
     {
       "id": 36,
@@ -319,62 +311,14 @@
       "backAnswer": "Michelangelo painted the ceiling of the Sistine Chapel.",
       "image": "",
       "lastModificationDateTime": "11/12/2023",
-      "status": "Want to Learn"
+      "status": "Mark as Noted"
     },
     {
       "id": 40,
       "frontText": "What is the capital of Mexico?",
       "backAnswer": "Mexico City is the capital of Mexico.",
       "image": "",
-      "lastModificationDateTime": "11/11/2023",
-      "status": "Want to Learn"
-    },
-    {
-      "id": 41,
-      "frontText": "Who wrote 'The Odyssey'?",
-      "backAnswer": "Homer is traditionally considered the author of 'The Odyssey'.",
-      "image": "",
-      "lastModificationDateTime": "11/10/2023",
-      "status": "Want to Learn"
-    },
-    {
-      "id": 42,
-      "frontText": "What is the speed of light?",
-      "backAnswer": "The speed of light is approximately 299,792 kilometers per second.",
-      "image": "",
-      "lastModificationDateTime": "11/09/2023",
-      "status": "Want to Learn"
-    },
-    {
-      "id": 43,
-      "frontText": "Who is the author of 'War and Peace'?",
-      "backAnswer": "Leo Tolstoy is the author of 'War and Peace'.",
-      "image": "",
-      "lastModificationDateTime": "11/08/2023",
-      "status": "Want to Learn"
-    },
-    {
-      "id": 44,
-      "frontText": "What is the capital of Argentina?",
-      "backAnswer": "Buenos Aires is the capital of Argentina.",
-      "image": "",
-      "lastModificationDateTime": "11/07/2023",
-      "status": "Want to Learn"
-    },
-    {
-      "id": 45,
-      "frontText": "Who discovered the polio vaccine?",
-      "backAnswer": "Jonas Salk is credited with discovering the polio vaccine.",
-      "image": "",
-      "lastModificationDateTime": "11/06/2023",
-      "status": "Want to Learn"
-    },
-    {
-      "id": 46,
-      "frontText": "What is the currency of Brazil?",
-      "backAnswer": "The currency of Brazil is the Brazilian Real.",
-      "image": "",
-      "lastModificationDateTime": "11/05/2023",
+      "lastModificationDateTime": "1/4/2024, 5:59:37 AM",
       "status": "Want to Learn"
     }
   ],

@@ -297,7 +297,7 @@ const FlashCards = () => {
                                         onChange={sortingChangeAction}
 
                                     >
-                                        <option value="IdDecreased">Latest Additions First</option>
+                                        <option value="IdDecreased">Most Recent Modification</option>
                                         <option value="IdIncreased">Oldest Additions First</option>
                                         <option value="frontTextAZ">Alphabetical by Front Text</option>
                                         <option value="frontTextZA">Reverse Alphabetical by Front Text</option>
